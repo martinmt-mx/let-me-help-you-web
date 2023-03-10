@@ -1,0 +1,74 @@
+en:
+  # FAQS
+  what_html: <h3>What is Let Me Help You?</h3>
+             <p>Terapify is a safe and affordable online psychological therapy platform. <br>
+                Our mission is to help people regain the emotional stability they need for their daily lives.</p>
+  how_html: <h3>How does it work?</h3>
+            <p>
+            In Terapify you can speak safely and privately with a trusted psychologist by video call, call or chat. <br>
+            To have an online consultation with one of our psychologists, you have to make an appointment in advance. <br>
+            The availability of hours varies according to the agenda of the psychologist you select. 
+            </p>
+  effective_html: <h3>Are online consultations effective? </h3>
+                  <p>
+                  Online consultations allow you to receive the same psychological care that you would receive in a traditional office, but remotely. <br>
+                  You can talk with your therapist by chat without leaving home. 
+                  </p>
+  payment_html: <h3>When is the appointment payment made?</h3>
+                <p>
+                At the time of scheduling your appointment you must make the payment for it so that it is confirmed with your psychologist and you can carry it out.
+                </p>
+  long_html: <h3>How long is an appointment?</h3>
+              <p>
+              Appointments last 50 minutes. <br>
+              It is important that you enter your appointment on time. The consultation times have been programmed especially for you, if you are late for your appointment, it will have to be shorter to respect the schedules of the other patients. <br>
+              Regardless of the duration of your appointment, it will be charged in full. 
+              </p>
+  # PRICES
+  prices_text_head: "Going to therapy is a life-changing process"
+  prices_text2: "Schedule 4 appointments and get a discount when making your payment"
+  ind_appointment: "Individual appointment"
+  text_box_prices1: "1 appointment by video call of 50 min. for 1 person"
+  cou_appointment: "Couple Appointment"
+  text_box_prices2: "1 appointment by video call of 50 min. for 2 persons"
+  pack_appointment: "Appointment Package"
+  text_box_prices3: "4 appointments per video call of 50 min. up to 2 people"
+  price_button: "I want to start"
+
+  # INDEX
+  start: "Start Now"
+  main_content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                 Eos, natus.Lorem ipsum dolor sit amet consectetur "
+  psycho_html: <h2 class="hero-text_medium">Psychological</h2>
+  help_html: <h1 class="hero-text_large">HELP</h1>
+
+  # PROFILE
+  about_me: "About me"
+  age: "Age"
+  country: "Country"
+  phone: "Phone"
+  email: "Email"
+  edit_profile: "Edit Profile"
+  
+  # PSYCHOLOGIST
+  specialities: "Specialities"
+  register: "Professional Register"
+
+  # TYPE
+  type_question: "Hi, what are you?"
+  welcome_back: "Welcome Back!"
+  psychologist_type: "Psychologist"
+  patient_type: "Patient"
+
+  # PSYCHOLOGIST LIST
+  choose_psychologist: "Choose your online Psychologist"
+  search_psychologist: "Search Psychologist by"
+  alphabetical_order: "Alphabetical Order"
+  rating_order: "Rating"
+  schedule_appointment: "Schedule Appointment"
+
+  # PRICES
+  price_individual: "20 USD"
+  price_couple: "30 USD"
+  price_package: "99 USD"
+

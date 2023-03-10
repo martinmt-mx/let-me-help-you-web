@@ -1,0 +1,33 @@
+$text-color: #0077B6;
+$white: #fff;
+$breakpoint-desktop: 992px;
+$field-color: #66C0DD;
+$title-color: #0077B6;
+
+%flex_align_center{
+  align-content: center;
+  justify-content: center;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin button($padding_top_and_bot, $padding_left_and_right, $bgcolor, $color-text){
+  background-color: $bgcolor;
+  color: $color-text;
+  text-decoration: none;
+  padding: $padding_top_and_bot $padding_left_and_right;
+  border-radius: 20px;
+}
+
+@mixin desactivated_navbarMobile {
+  .navbar {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+}

@@ -1,0 +1,26 @@
+<div class="appoint_container">
+  <% @appointment.each do |a| %>
+    <div class="list-element">
+      <div class="left-content">
+        <p>
+          <a><%= t('psychologist') %>:</a>
+          <% @psychologist.each do |p|%>
+             <%= p.name if a.psychologist_id == p.id%> 
+          <% end %> <br>
+          <a><%= t('date') %>: </a> <%= a.datetime %> <br>
+          <a><%= t('price') %>: </a> $<%= t('price_individual')%>
+        </p>
+      </div>
+      <div class="middle-content">
+        <p>
+          <%= "🟢 #{t('payed')}" if a.pay == true %>
+          <%= "🟡 #{t('pending_payment')}" if a.pay == false %> 
+        </p>
+      </div>
+      <div class="right-content">
+        <%= link_to t('edit'), edit_appointment_path(a), class: "btn btn-edit" %>
+        <%= link_to t('delete'), appointment_path(a), method: :delete, data: { confirm: t('cancel_question') }, class: "btn btn-cancel" %>
+      </div>
+    </div><br>
+  <% end %>
+</div>
